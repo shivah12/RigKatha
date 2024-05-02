@@ -182,13 +182,14 @@ animation: loader 4s infinite linear;
 @media (max-width:768px){
     .main{
     flex: 1;
-    min-height: 120vh;
+    max-height: 120vh;
     padding-bottom: 15vh;
     position: relative;
     background-color: #000000;
 
     }
     .search-box {
+    
     z-index: 3;
     display: flex;
     align-items: center;
