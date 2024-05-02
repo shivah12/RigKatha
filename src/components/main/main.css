@@ -179,3 +179,16 @@ animation: loader 4s infinite linear;
     font-weight: 300px;
     line-height: 1.8;
 }
+@media (max-width:600px){
+    .search-box {
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    background-color: #cecece57;
+    padding: 10px 20px;
+    border-radius: 50px;
+    backdrop-filter: blur(10px); 
+}
+}
