@@ -196,6 +196,8 @@
 @media only screen and (max-width: 768px) {
     .main-container {
         padding: 0px 20px;
+        background-attachment: fixed;
+        overflow-y: hidden;
     }
     
     .main-container .greet {
@@ -209,6 +211,7 @@
         width:98%;
         padding: 8px 12px;
         gap: 5px;
+        margin-left: -15px;
     }
 
     .search-box img {
