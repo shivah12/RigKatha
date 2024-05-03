@@ -1,7 +1,8 @@
-import { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { assets } from "../../assets/assets";
 import "./main.css";
 import { Context } from "../../context/Context";
+import Login from "./login.jsx"; 
 
 const Main = () => {
     const {
@@ -14,6 +15,9 @@ const Main = () => {
         input,
     } = useContext(Context);
 
+    // State to manage whether the login component should be displayed
+    const [showLogin, setShowLogin] = useState(false);
+
     const handleCardClick = (promptText) => {
         setInput(promptText);
     };
@@ -22,9 +26,12 @@ const Main = () => {
         <div className="main">
             <div className="nav">
                 <p>RigKatha</p>
-                <img src={assets.user} alt="" />
+                {/* When the user icon is clicked, toggle the state to show/hide the login component */}
+                <img src={assets.user} alt="" onClick={() => setShowLogin(!showLogin)} />
             </div>
             <div className="main-container">
+                {/* Render the login component if showLogin is true */}
+                {showLogin && <Login />}
                 {!showResults ? (
                     <>
                         <div className="greet">
