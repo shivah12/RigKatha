@@ -6,6 +6,7 @@
     position: relative;
     background-color: #000000;
     backdrop-filter: blur(10px);
+    overflow: hidden;
 }
 
 .main .nav {
@@ -51,7 +52,7 @@
 .main .card {
     height: 200px;
     padding: 15px;
-    background: linear-gradient(to right, #3f4243, #a153e98f, #2b2c2d);
+    background: linear-gradient(to right, #3f4243, #812fce8f, #2e1a4486);
     border: #f0f4f9 solid 1px;
     border-radius: 10px;
     position: relative;
@@ -182,7 +183,7 @@
     width: 100%;
     height: 100%;
     z-index: 2;
-    background-image: radial-gradient(ellipse at center, rgba(97, 58, 170, 0.29) 0%, rgba(51, 51, 69, 0) 100%);
+    background-image: radial-gradient(ellipse at center, rgba(107, 65, 175, 0.395) 0%, rgba(51, 51, 69, 0) 100%);
     pointer-events: none;
 }
 
