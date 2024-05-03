@@ -1,9 +1,9 @@
-```markdown
-# Rig Katha
+
+<h1>Rig Katha</h1>
 
 Rig Katha is a Gemini clone application that utilizes the Gemini API for fetching data, with customizations in colors and additional features such as user authentication and login.
 
-## Overview
+<h1>Overview</h1>
 
 Rig Katha is designed to provide a Gemini-like experience, offering users a platform to interact with various prompts and receive relevant information. It integrates the Gemini API to fetch data and personalize the user experience.
 
@@ -20,6 +20,7 @@ Rig Katha is designed to provide a Gemini-like experience, offering users a plat
 <li>CSS</li>
 <li>Vite</li>
 <li>Styled Components</li>
+
 ## Installation
 
 To run Rig Katha locally, follow these steps:
