@@ -1,3 +1,4 @@
+
 .main {
     flex: 1;
     min-height: 100vh;
@@ -205,13 +206,14 @@
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
     .search-box {
-        width:97%;
+        width:98%;
         padding: 8px 12px;
         gap: 5px;
     }
 
     .search-box img {
-        width: 18px;
+        margin-left: -5px;
+        width: 17px;
     }
 
     .search-box input {
