@@ -127,7 +127,7 @@ const Main = () => {
 					</div>
 					<div className="bottom-info">
 						<p>
-							Gemini may display inaccurate info, including about people, so
+							RigKatha may display inaccurate info, including about people, so
 							double-check its responses. Your privacy & Gemini Apps
 						</p>
 					</div>
