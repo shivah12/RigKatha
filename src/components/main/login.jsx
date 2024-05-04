@@ -46,7 +46,6 @@ const MainContainer = styled.div`
   flex-direction: column;
   height: 80vh;
   width: 50vw;
-  top: 50%;
   margin-left: 400px;
   background: rgba(255, 255, 255, 0.15);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -57,41 +56,24 @@ const MainContainer = styled.div`
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 0.4rem;
-  overflow: hidden;
-  background-attachment: fixed;
-  @media only screen and (max-width: 320px) {
+  overflow-y: hidden;
+
+  @media only screen and (max-width: 768px) {
     width: 80vw;
-    height: 90vh;
-    hr {
-      margin-bottom: 0.3rem;
-    }
-    h4 {
-      font-size: small;
-    }
+    margin-left: 20px;
   }
-  @media only screen and (min-width: 360px) {
+
+  @media only screen and (max-width: 600px) {
     width: 80vw;
-    height: 90vh;
-    h4 {
-      font-size: small;
-    }
   }
-  @media only screen and (min-width: 411px) {
-    width: 80vw;
+
+  @media only screen and (max-width: 414px) {
+    width: 90vw;
     height: 90vh;
   }
 
-  @media only screen and (min-width: 768px) {
-    width: 80vw;
-    height: 80vh;
-  }
-  @media only screen and (min-width: 1024px) {
-    width: 70vw;
-    height: 50vh;
-  }
-  @media only screen and (min-width: 1280px) {
-    width: 30vw;
-    height: 80vh;
+  @media only screen and (max-width: 320px) {
+    width: 100vw;
   }
 `;
 
