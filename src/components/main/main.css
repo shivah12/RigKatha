@@ -1,3 +1,4 @@
+
 .main {
     flex: 1;
     min-height: 100vh;
@@ -6,6 +7,8 @@
     background-color: #000000;
     backdrop-filter: blur(10px);
     overflow: hidden;
+    background-attachment: fixed;
+    z-index: 2;
 }
 
 .main .nav {
@@ -15,6 +18,7 @@
     font-size: 22px;
     padding: 20px;
     color: #585858;
+    z-index: 5;
 }
 
 .main .nav img {
