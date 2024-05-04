@@ -98,7 +98,7 @@
     background-color: #cecece57;
     padding: 10px 20px;
     border-radius: 50px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
 }
 
 .search-box img {
