@@ -6,8 +6,6 @@
     position: relative;
     background-color: #000000;
     backdrop-filter: blur(10px);
-    overflow: hidden;
-    background-attachment: fixed;
     z-index: 2;
 }
 
@@ -200,8 +198,6 @@
 @media only screen and (max-width: 768px) {
     .main-container {
         padding: 0px 20px;
-        background-attachment: fixed;
-        overflow-y: hidden;
     }
     
     .main-container .greet {
