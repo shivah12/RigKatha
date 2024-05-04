@@ -47,7 +47,7 @@ const MainContainer = styled.div`
   height: 80vh;
   width: 50vw;
   top: 50%;
-  margin-left: 200px;
+  margin-left: 400px;
   background: rgba(255, 255, 255, 0.15);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8.5px);
@@ -57,6 +57,8 @@ const MainContainer = styled.div`
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 0.4rem;
+  overflow: hidden;
+  background-attachment: fixed;
   @media only screen and (max-width: 320px) {
     width: 80vw;
     height: 90vh;
